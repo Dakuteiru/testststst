@@ -1,2 +1,126 @@
 312313213213123123123123123123git 12 312 312 312 3123 123 132
 gytyytty
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Индексы и Радввввввввввввввввввввв</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Стиль для большого заголовка */
+        .rainbow-title {
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            /* Используем градиент для эффекта радуги на всем тексте сразу */
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text; /* Обрезка фона по форме текста (для совместимости с Chrome/Safari) */
+            background-clip: text;
+            color: transparent; /* Делаем сам текст прозрачным, чтобы видеть фон */
+        }
+
+        .container {
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Стиль для таблицы */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #4CAF50; /* Зеленый цвет для шапки */
+            color: white;
+        }
+
+        /* Чередование цветов строк для лучшей читаемости */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Выделение верхних (sup) и нижних (sub) индексов */
+        sup {
+            color: #FF5733; /* Оранжево-красный */
+            font-weight: bold;
+        }
+
+        sub {
+            color: #3371FF; /* Ярко-синий */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="rainbow-title">
+        РАДУЖНЫЙ ПРИМЕР: ИНДЕКСЫ В HTML
+    </h1>
+
+    <div class="container">
+        <p>
+            В этом примере показано использование верхних (тег `<sup>`) и нижних (тег `<sub>`) индексов в HTML. Это полезно для отображения математических формул или химических обозначений.
+        </p>
+        <p>
+            Например, формула воды — H<sub>2</sub>O. А вот пример математической степени: X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup>.
+        </p>
+
+        <h2>Таблица Примеров Индексов</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Описание</th>
+                    <th>HTML-код</th>
+                    <th>Результат</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Химическая формула</td>
+                    <td>`C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>`</td>
+                    <td>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (Глюкоза)</td>
+                </tr>
+                <tr>
+                    <td>Математическая степень</td>
+                    <td>`E = mc<sup>2</sup>`</td>
+                    <td>E = mc<sup>2</sup> (Формула Эйнштейна)</td>
+                </tr>
+                <tr>
+                    <td>Порядковый номер</td>
+                    <td>`1<sup>st</sup> Place`</td>
+                    <td>1<sup>st</sup> Place</td>
+                </tr>
+                 <tr>
+                    <td>Логарифм</td>
+                    <td>`log<sub>10</sub>(x)`</td>
+                    <td>log<sub>10</sub>(x)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
